@@ -24,6 +24,12 @@ class AttendanceApp extends StatelessWidget {
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
           useMaterial3: true,
+          appBarTheme: const AppBarTheme(
+            centerTitle: true,
+            backgroundColor: Color.fromARGB(255, 127, 144, 242),
+            style: TextStyle(color: Colors.white),
+          
+          ),
         ),
         home: const AttendanceScreen(),
       ),
